@@ -1,0 +1,392 @@
+<!DOCTYPE html >
+<html>
+<head>
+<meta charset="UTF8">	
+<title>Home Page</title>
+<!--Include Css Files -->
+	    <link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+       <link href="https://fonts.googleapis.com/css?family=Cairo" rel="stylesheet"> 
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/style.css">
+<!--End Including Css Files -->
+</head>
+<body>
+    
+	<!--Start Navbar-->
+    
+    <nav class="navbar navbar-default navbar-fixed-top navcarbox" role="navigation">
+
+      <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">أوسطى</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      
+      
+      <ul class="nav navbar-nav navbar-right">
+          <li class="active"><a href="index.html">الرئيسيه </a></li>
+        <li><a href="#">كل المهن </a></li>
+        <li><a href="#">فرص عمل </a></li>
+             <li><a href="#">تواصل معنا  </a></li>
+        <li class="dropdown pull-right">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">تسجيل  الدخول <b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">سجل دخولك</a></li>
+            <li><a href="#">تسجيل حساب </a></li>
+            <li class="divider"></li>
+            <li><a href="#"> تسجيل  خروج </a></li>
+          </ul>
+        </li>
+   
+      </ul>
+    </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-collapse -->
+  </nav>
+
+    <!--End Navbar-->
+    
+    
+       
+    <!--Start Search bar -->
+
+    <div class="search-bars try-search">
+      <div class="container">
+          <div class="row">
+             <div class="col-md-10">
+                 <form class="form-hoizontal">
+                     <div class="form-group">
+                        <div class="col-md-5">
+                              <select class="form-control">
+                                <option value="0">Select car:</option>
+                                <option value="1">Audi</option>
+                                <option value="2">BMW</option>
+                                <option value="3">Citroen</option>
+                                <option value="4">Ford</option>
+                                <option value="5">Honda</option>
+                                <option value="6">Jaguar</option>
+                                <option value="7">Land Rover</option>
+                                <option value="8">Mercedes</option>
+                                <option value="9">Mini</option>
+                                <option value="10">Nissan</option>
+                                <option value="11">Toyota</option>
+                                <option value="12">Volvo</option>
+
+                              </select>
+                        </div>
+                 </div>
+          <div class="form-group">
+                        <div class="col-md-5">
+                      <select class="form-control">
+                        <option value="0">Select car:</option>
+                        <option value="1">Audi</option>
+                        <option value="2">BMW</option>
+                        <option value="3">Citroen</option>
+                        <option value="4">Ford</option>
+                        <option value="5">Honda</option>
+                        <option value="6">Jaguar</option>
+                        <option value="7">Land Rover</option>
+                        <option value="8">Mercedes</option>
+                        <option value="9">Mini</option>
+                        <option value="10">Nissan</option>
+                        <option value="11">Toyota</option>
+                        <option value="12">Volvo</option>
+                      </select>
+                    
+              </div>
+                     </div>
+                
+            
+                   <button class="btn btn-warning btn-lg">ابحث الأن</button>
+                     </form>
+                  </div>
+              </div>
+          </div> 
+      </div>
+
+
+    <!--End Search bar -->
+    
+    
+    <div class="workers">
+       <div class="container">
+           <div class="row">
+             <div class="col-md-3">
+                 <div class="filter">      
+    <form>
+    <button class="btn btn-default">Clear Filters</button>
+    <div class="panel panel-default">
+    <div class="panel-heading filter-heading">
+    Location
+    <span class="toggle-info pull-right">
+    <img src="images/arrows/top.png" alt="top">    
+    </span>   
+    </div>
+    <div class="panel-body">
+    <input type="checkbox" name="location1" >Cairo<span>(100)</span><br>
+    <input type="checkbox" name="location2" >Giza<span>(50)</span><br>
+    <input type="checkbox" name="location3" >Alexandria<span>(30)</span><br>
+    <input type="checkbox" name="location4" >Esmalia<span>(14)</span><br>
+    <input type="checkbox" name="location5" >Menia<span>(8)</span><br>
+    <input type="checkbox" name="location6" >Monofya<span>(120)</span><br>
+    </div>
+    </div>
+      <div class="panel panel-default">
+    <div class="panel-heading filter-heading">
+    Job Category
+    <span class="toggle-info pull-right">
+    <img src="images/arrows/top.png" alt="top">    
+    </span>   
+    </div>
+    <div class="panel-body">
+    <input type="checkbox" name="cat1" >Full Satck Developer<span> (100)</span><br>
+    <input type="checkbox" name="cat2" >Back End Developer<span>(50)</span><br>
+    <input type="checkbox" name="cat3" >Front End Developer<span>(30)</span><br>
+    <input type="checkbox" name="cat4" >Mobile Apps Developer<span>(14)</span><br>
+    <input type="checkbox" name="cat5" >Data scientest<span>(8)</span><br>
+    
+    </div>
+    </div>
+        
+  
+         <div class="panel panel-default">
+    <div class="panel-heading filter-heading">
+    Publish Date
+    <span class="toggle-info pull-right">
+    <img src="images/arrows/top.png" alt="top">    
+    </span>   
+    </div>
+    <div class="panel-body">
+    <input type="checkbox" name="anytime" >Any Time<span>(100)</span><br>
+    <input type="checkbox" name="7days" >Last 7 Days<span>(50)</span><br>
+    <input type="checkbox" name="15days" >Last 15 Days<span>(30)</span><br>
+    <input type="checkbox" name="30days" >Last 30 Days<span>(14)</span><br>
+    <input type="checkbox" name="60days" >Last 60 Days<span>(8)</span><br>
+    </div>
+    </div>
+        
+  
+         <div class="panel panel-default">
+    <div class="panel-heading filter-heading">
+    Experience Level
+    <span class="toggle-info pull-right">
+    <img src="images/arrows/top.png" alt="top">    
+    </span>   
+    </div>
+    <div class="panel-body">
+    <input type="checkbox" name="junior" >Junior<span> (100)</span><br><p>less than 3 years</p> 
+  <input type="checkbox" name="intermediate" >Intermediate<span> (50)</span><br><p>between 3 - 6 years</p>
+        <input type="checkbox" name="senior" >senior<span> (8)</span><br><p>more than 6 years</p> 
+   <input type="checkbox" name="lead" >lead<span> (40)</span><br><p>more than 6 years</p> 
+
+   
+    </div>
+    </div>
+        
+  
+         <div class="panel panel-default">
+    <div class="panel-heading filter-heading">
+    Minimum Annual Salary 
+    <span class="toggle-info pull-right">
+    <img src="images/arrows/top.png" alt="top">    
+    </span>   
+    </div>
+    <div class="panel-body">
+    <input class="form-control" type="text" name="price" placeholder="ex : $2000" > 
+    <p>We'll search in other currencies at today's exchange rate, with a 5% margin.</p>
+    </div>
+    </div>
+        
+  
+         <div class="panel panel-default">
+    <div class="panel-heading filter-heading">
+    Language
+    <span class="toggle-info pull-right">
+    <img src="images/arrows/top.png" alt="top">    
+    </span>   
+    </div>
+    <div class="panel-body">
+    <input type="checkbox" name="English" >English<span>(60)</span><br>
+    <input type="checkbox" name="spanish" >spanish<span>(50)</span><br>
+    <input type="checkbox" name="German" >German<span>(30)</span><br>
+    <input type="checkbox" name="Danish" >Danish<span>(14)</span><br>
+   
+    </div>
+    </div>
+        
+  
+         <div class="panel panel-default">
+    <div class="panel-heading filter-heading">
+    others
+    <span class="toggle-info pull-right">
+    <img src="images/arrows/top.png" alt="top">    
+    </span>   
+    </div>
+    <div class="panel-body">
+    <input type="checkbox" name="Agency" >Hide Stafing Agency Offers<span>(100)</span><br>
+    <input type="checkbox" name="consultancy" >Hide consultancy  Offers<span>(50)</span><br>
+    
+    </div>
+    </div>
+        
+    </form>
+    </div>
+    
+            
+    <!--End Slider -->         
+   </div>
+             <div class="col-md-9">
+                 <div class="persons">
+                    <div class="col-md-3">
+                       <div class="card">
+                      <img class="img-responsive" src="images/profile.jpg" alt="worker">
+                            <h5>محمد ابراهيم على </h5>
+                            <h4>عامل  خراطه </h4>
+                            <h5><i class="fa fa-map-marker" aria-hidden="true"></i>المهندسين </h5>
+                            
+                      </div>
+                        
+                        <div class="card">
+                      <img class="img-responsive" src="images/profile.jpg" alt="worker">
+                            <h5>محمد ابراهيم على </h5>
+                            <h4>عامل  خراطه </h4>
+                            <h5><i class="fa fa-map-marker" aria-hidden="true"></i>  المهندسين </h5>
+                      </div>
+                 </div>  
+                    <div class="col-md-3">
+                  <div class="card">
+                      <img class="img-responsive" src="images/profile.jpg" alt="worker">
+                        <h5>محمد ابراهيم على </h5>
+                      <h4>عامل  خراطه </h4>
+                      <h5><i class="fa fa-map-marker" aria-hidden="true"></i> المهندسين</h5>
+                    </div>
+                        
+                      <div class="card">
+                      <img class="img-responsive" src="images/profile.jpg" alt="worker">
+                    <h5>محمد ابراهيم على </h5>
+                      <h4>عامل  خراطه </h4>
+                      <h5><i class="fa fa-map-marker" aria-hidden="true"></i> المهندسين</h5>
+                    </div>
+                 </div>
+                    <div class="col-md-3">
+                  <div class="card">
+                      <img class="img-responsive" src="images/profile.jpg" alt="worker">
+                          <h5>محمد ابراهيم على </h5>
+                      <h4>عامل  خراطه </h4>
+                      <h5><i class="fa fa-map-marker" aria-hidden="true"></i> المهندسين </h5>
+                    </div>
+                        
+                 <div class="card">
+                      <img class="img-responsive" src="images/profile.jpg" alt="worker">
+                        <h5>محمد ابراهيم على </h5>
+                      <h4>عامل  خراطه </h4>
+                      <h5> <i class="fa fa-map-marker" aria-hidden="true"></i> المهندسين </h5>
+                    </div>
+                 </div>
+                    <div class="col-md-3">
+                  <div class="card">
+                      <img class="img-responsive" src="images/profile.jpg" alt="worker">
+                    <h5>محمد ابراهيم على </h5>
+                      <h4>عامل  خراطه </h4>
+                      <h5><i class="fa fa-map-marker" aria-hidden="true"></i> المهندسين </h5>
+                    </div>
+                      <div class="card">
+                      <img class="img-responsive" src="images/profile.jpg" alt="worker">
+                      <h5>محمد ابراهيم على </h5>
+                      <h4>عامل  خراطه </h4>
+                      <h5><i class="fa fa-map-marker" aria-hidden="true"></i> المهندسين </h5>
+                    </div>
+                 </div>
+                </div>
+             </div>
+               
+               
+               
+               
+             </div>  
+        </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+        
+  
+    <!--Start Footer -->
+     <div class="footer">
+         <div class="container">
+           <div class="col-md-3">
+              <h5>تابعنا </h5>
+               <ul class="social">
+                   <li><i class="fa fa-facebook"></i></li>
+                   <li><i class="fa fa-twitter"></i></li>
+                   <li><i class="fa fa-instagram"></i></li>
+                   
+               </ul>
+            </div> 
+              <div class="col-md-3">
+                 <ul class="links">
+                     <li>المساعده والضمان </li>
+                     <li> الضمان</li>
+                     <li> الشروط والأحكام</li>
+                     <li> كيف يعمل اسطى </li>
+                     <li> عن أسطى</li>
+                     
+                 </ul>  
+            </div> 
+              <div class="col-md-3">
+                   <ul class="links">
+                     <li>المساعده والدعم </li>
+                     <li> الضمان</li>
+                     <li> الشروط والأحكام</li>
+                     <li> كيف يعمل اسطى </li>
+                     <li> عن أسطى</li>
+                     
+                 </ul>
+            </div> 
+             
+                 <div class="col-md-3">
+                   <ul class="links">
+                     <li>روابط هامه  </li>
+                     <li> تسجيل  حساب جديد </li>
+                     <li>تسجيل  دخول </li>
+                     <li>الشكاوى  والأقتراحات </li>
+                     <li> عن أسطى</li>
+                     
+                 </ul>
+            </div>
+             
+         
+         </div>
+     </div>
+    <!--End Footer --> 
+    
+ <div class="sub-footer">
+  <h4 class="text-center">جميع الحقوق محفوظه   &copy;  Bfci Team</h4>   
+ </div>
+	
+<!--Include Js Files -->
+	<script src="js/jquery-1.12.0.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <script src="js/wow.min.js"></script>
+	<script src="js/active.js"></script>
+<!--End Including Js Files -->
+</body>
+</html>
